@@ -24,7 +24,7 @@ nav li {
 }
 nav li:hover {
   background: lightgrey;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 nav a, nav a:hover, nav a:visited, nav a:focus {
   text-decoration: none;
