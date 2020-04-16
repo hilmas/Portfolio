@@ -1,0 +1,116 @@
+html {
+ background-color: lightgrey;
+}
+body {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Nav */
+nav {
+  position: static;
+  top: 0;
+  background: grey;
+  font-family: "news-gothic-std", sans-serif;
+  margin-bottom: 20px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+    padding: 15px;
+}
+nav li:hover {
+  background: lightgrey;
+  /* cursor: pointer; */
+}
+nav a, nav a:hover, nav a:visited, nav a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+/* Gridsetup */
+.grid121 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 15px;
+}
+.gi1-1 {
+  grid-column: 1/-1;
+}
+.gi2-1 {
+  grid-column: 2/-1;
+}
+.gi3-1 {
+  grid-column: -2/-1;
+}
+.gi2-3 {
+  grid-column: 2/-2;
+}
+
+/* Article */
+article main{
+  width: 80%;
+  margin: 30px auto;
+}
+
+/* Figure */
+figure {
+  text-align: center;
+}
+figcaption {
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+figure img{
+  width: 100%;
+}
+
+/* Text */
+h1 {
+  font-family: "news-gothic-std", sans-serif;
+  font-weight: normal;
+  font-size: 6em;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: "news-gothic-std", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+p{
+  font-family: 'Spectral', "Georgia", "Times", serif;
+  font-size: 1.2em;
+  line-height: 150%;
+  margin-top: 1em;
+  /* text-align: justify;
+  hyphens: auto; */
+}
+p.note{
+  font-size: 1em;
+}
+p.ingress {
+  font-style: italic;
+  font-size: 1.6em;
+  line-height: 160%;
+  text-align: left;
+}
+h2 + p{
+  margin-top: 0px;
+}
+p.inset {
+  margin-top: 0px;
+  text-indent: 1.2em;
+}
+em {
+  font-style: italic;
+  color: ;
+}
