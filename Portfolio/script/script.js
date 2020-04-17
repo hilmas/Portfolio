@@ -17,7 +17,7 @@ document.getElementById('musikLink').addEventListener("mouseover", mOver);
 //Detta led aktiveras när elementet inte längre har muspekaren över sig. 
 document.getElementById('musikLink').addEventListener("mouseout", mOut);
 
-
+// ----------------------------------------------------------------
 
 // jquery som skapar en hover-effekt på id:t "solLink"
 $(document).ready(function() {
