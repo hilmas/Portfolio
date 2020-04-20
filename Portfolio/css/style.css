@@ -86,11 +86,6 @@ article main {
     margin-bottom: 5px;
 }
 
-.nightModeBodyClass {
-    background-color: #444;
-    color: #ccc;
-}
-
 
 /* Figure */
 
@@ -112,29 +107,7 @@ figure img {
 /* Figure Shading */
 
 
-/* Sätter bilderna till gråskala*/
-
-figure img {
-    filter: grayscale();
-    transition-property: ;
-    transition-duration: ;
-}
-
-
-/* Tar fram färg vid hover */
-
-figure img:hover {
-    filter: unset;
-}
-
-
 /* Figure Translations */
-
-figure:hover {
-    transform: scale(1.15);
-    transform-origin: center;
-    transition: transform 200ms;
-}
 
 
 /* Text */
