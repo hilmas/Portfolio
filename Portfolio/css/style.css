@@ -28,8 +28,8 @@ nav li {
     padding: 15px;
 }
 
-nav li:hover {
-    background: lightgrey;
+nav li#indexLink:hover {
+    background: lightpink;
     cursor: pointer;
 }
 
@@ -117,8 +117,8 @@ p {
     font-size: 1.2em;
     line-height: 150%;
     margin-top: 1em;
-    /* text-align: justify; */
-    /* hyphens: auto; */
+    /* text-align: justify;
+  hyphens: auto; */
 }
 
 p.note {
@@ -137,11 +137,10 @@ h2+p {
 }
 
 p.inset {
-    margin-top: 0em;
+    margin-top: 0px;
     text-indent: 1.2em;
 }
 
 em {
     font-style: italic;
-    color: ;
 }

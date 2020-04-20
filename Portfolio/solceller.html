@@ -1,144 +1,102 @@
 <!DOCTYPE html>
 <html lang="sv" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Tobias intresse - Solceller</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/lhk8ovy.css">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  </head>
-  <body>
+    <script src="script/jquery-3.5.0.min.js"></script>
+</head>
+
+<body>
     <nav>
-      <ul>
-        <li><a href="index.html">Hem</a></li>
-        <a href="solceller.html"><li>Solceller</li></a>
-        <a href="#"><li>Musik</li></a> 
-        <a href="#"><li>Idrott</li></a>
-        <a href="#"><li>Utbildning</li></a>
-      </ul>
+        <ul>
+            <li id="indexLink"><a href="index.html">Hem</a></li>
+            <a href="solceller.html">
+                <li id="solLink">Solceller</li>
+            </a>
+            <a href="#">
+                <li id="musikLink">Musik</li>
+            </a>
+            <a href="#">
+                <li>Idrott</li>
+            </a>
+            <a href="#">
+                <li>Utbildning</li>
+            </a>
+        </ul>
     </nav>
     <header>
-      <img src="img/tobtr46_sign.png" alt="Tobias Trofast signatur" width="75%">
+        <img src="img/tobtr46_sign.png" alt="Tobias Trofast signatur" width="75%">
     </header>
     <article class="grid121">
-    <section class="gi1-1">
-    <h1>Solceller</h1>
-    <p class="note">(Texten är lånad från Wikipedia)</p>
+        <section class="gi1-1">
+            <h1>Solceller</h1>
+            <p class="note">(Texten är lånad från Wikipedia)</p>
 
-    <p class="ingress">Solceller är ljuskänsliga halvledardioder som omvandlar ljus till
-    elektrisk ström. Elkraftförsörjning från solceller har flera
-    användningsområden. Solceller används för energisystem i mindre skala,
-    exempelvis för enskilda hushåll, men också för storskaliga installationer.
-    De kan exempelvis även nyttjas för att ladda mobiltelefoner, surfplattor och
-    bärbara datorer.</p>
-    </section>
-    <section class="gi2-1">
-    <p>En solcell eller en <em>fotovoltaisk cell</em> är en anordning
-    bestående av halvledare (ofta kisel) som fungerar som dioder. När dessa
-    dioder belyses uppstår en elektrisk ström i diodens backriktning. Varje
-    enskild cell ger upphov till en ganska låg spänning, därför seriekopplas
-    solcellerna i solpaneler. Man kan också parallellkoppla solcellerna om man
-    vill öka strömstyrkan.</p>
-    <figure>
-      <img src="img/1485px-Agesta.jpg" alt="Solcellspaneler i Ågesta solaranläggning." width="100%">
-      <figcaption>Solcellspaneler i Ågesta solaranläggning.</figcaption>
-    </figure>
+            <p class="ingress">Solceller är ljuskänsliga halvledardioder som omvandlar ljus till elektrisk ström. Elkraftförsörjning från solceller har flera användningsområden. Solceller används för energisystem i mindre skala, exempelvis för enskilda hushåll, men också
+                för storskaliga installationer. De kan exempelvis även nyttjas för att ladda mobiltelefoner, surfplattor och bärbara datorer.</p>
+        </section>
+        <section class="gi2-1">
+            <p>En solcell eller en <em>fotovoltaisk cell</em> är en anordning bestående av halvledare (ofta kisel) som fungerar som dioder. När dessa dioder belyses uppstår en elektrisk ström i diodens backriktning. Varje enskild cell ger upphov till en
+                ganska låg spänning, därför seriekopplas solcellerna i solpaneler. Man kan också parallellkoppla solcellerna om man vill öka strömstyrkan.</p>
+            <figure>
+                <img src="img/1485px-Agesta.jpg" alt="Solcellspaneler i Ågesta solaranläggning." width="100%">
+                <figcaption>Solcellspaneler i Ågesta solaranläggning.</figcaption>
+            </figure>
 
-    <h2>Allmänt</h2>
+            <h2>Allmänt</h2>
 
-    <p>Man kan generellt dela upp solpaneler i två grupper, solpaneler med
-    kristallina solceller samt tunnfilmssolceller. Kristallina celler är mest
-    förekommande idag då de har högre verkningsgrad än tunnfilmsceller. De
-    består av kisel som blivit dopat med olika ämnen för att få den önskade
-    funktionen. De kristallina cellerna kan även de delas upp i två typer,
-    polykristallina eller multikristallina och monokristallina celler. Solceller
-    har historiskt sett varit dyra och har mest använts på platser som inte nås
-    av elnätet, exempelvis sommarstugor, satelliter och fyrar. Priset för
-    solceller har dock under de första decennierna av 2000-talet sjunkit
-    kraftigt till följd av teknikutveckling och en utbyggnad av
-    produktionskapaciteten i världen. I takt med att priset har sjunkit har
-    marknaden vuxit med i snitt cirka 40 % sedan år 2000 och i slutet av 2011
-    fanns ungefär 64 GWp solcellskapacitet installerat i världen, av vilket 98 %
-    utgjordes av system uppkopplade på olika nationella elnät. 2017 hade den
-    installerade kapaciteten ökat till 387 GWp.</p>
+            <p>Man kan generellt dela upp solpaneler i två grupper, solpaneler med kristallina solceller samt tunnfilmssolceller. Kristallina celler är mest förekommande idag då de har högre verkningsgrad än tunnfilmsceller. De består av kisel som blivit
+                dopat med olika ämnen för att få den önskade funktionen. De kristallina cellerna kan även de delas upp i två typer, polykristallina eller multikristallina och monokristallina celler. Solceller har historiskt sett varit dyra och har mest
+                använts på platser som inte nås av elnätet, exempelvis sommarstugor, satelliter och fyrar. Priset för solceller har dock under de första decennierna av 2000-talet sjunkit kraftigt till följd av teknikutveckling och en utbyggnad av produktionskapaciteten
+                i världen. I takt med att priset har sjunkit har marknaden vuxit med i snitt cirka 40 % sedan år 2000 och i slutet av 2011 fanns ungefär 64 GWp solcellskapacitet installerat i världen, av vilket 98 % utgjordes av system uppkopplade på
+                olika nationella elnät. 2017 hade den installerade kapaciteten ökat till 387 GWp.</p>
 
-    <p class="inset">Inom den fysikaliska kemin pågår ständig forskning om hur man kan
-    effektivisera produktionen av solceller.</p>
-    <h2>Historia</h2>
+            <p class="inset">Inom den fysikaliska kemin pågår ständig forskning om hur man kan effektivisera produktionen av solceller.</p>
+            <h2>Historia</h2>
 
-    <p>Solceller har funnits sedan 1950-talet. Tekniken användes först i rymden
-    för elförsörjning till satelliter, men tekniken var då väldigt dyr. Under
-    1970-talet började tekniken användas även på jorden.</p>
+            <p>Solceller har funnits sedan 1950-talet. Tekniken användes först i rymden för elförsörjning till satelliter, men tekniken var då väldigt dyr. Under 1970-talet började tekniken användas även på jorden.</p>
 
-    <h2>Förhållanden i Sverige</h2>
+            <h2>Förhållanden i Sverige</h2>
 
-    <p>I Sverige var solcellsmarknaden på frammarsch år 2018. Totalt
-    installerades 180 MW solcellskapacitet i Sverige under 2018, vilket var en
-    ökning med 78 %. Sammanlagt fanns vid slutet av 2018 ungefär 411 MW
-    installerat i Sverige. Den växande marknaden var en följd av att bland annat
-    solcellsstödet ökade från 20 procent till 30 procent, samtidigt som det blev
-    allt billigare att installera solceller.</p>
+            <p>I Sverige var solcellsmarknaden på frammarsch år 2018. Totalt installerades 180 MW solcellskapacitet i Sverige under 2018, vilket var en ökning med 78 %. Sammanlagt fanns vid slutet av 2018 ungefär 411 MW installerat i Sverige. Den växande
+                marknaden var en följd av att bland annat solcellsstödet ökade från 20 procent till 30 procent, samtidigt som det blev allt billigare att installera solceller.</p>
 
-    <p>I slutet av 2011 låg priset för en enskild modul omkring 19 kr/W
-    (exklusive moms) och ett typiskt färdiginstallerat system för ett villatak
-    kostade runt 32 kr/W.</p>
+            <p>I slutet av 2011 låg priset för en enskild modul omkring 19 kr/W (exklusive moms) och ett typiskt färdiginstallerat system för ett villatak kostade runt 32 kr/W.</p>
 
-    <p>Under 2012 installerades 8,3 MW och 2013 installerades 19 MW i Sverige,
-    vilket ger en total installerad toppeffekt på 43,1 MW i Sverige vid slutet
-    av 2013.</p>
-    <h2>Hur en solcell fungerar</h2>
+            <p>Under 2012 installerades 8,3 MW och 2013 installerades 19 MW i Sverige, vilket ger en total installerad toppeffekt på 43,1 MW i Sverige vid slutet av 2013.</p>
+            <h2>Hur en solcell fungerar</h2>
 
-    <p>En solcell är en typ av fotodiod. Solcellen består av två skikt, vars
-    kemiska bindningar är vitala för att det fotovoltaiska fenomenet ska ske:
-    P-skiktet och N-skiktet. Det vanligaste ämnet i solceller är kristallint
-    kisel. Kisel har fyra valenselektroner. Kisel förmår dock binda upp till
-    åtta elektroner i det yttersta elektronskiktet. Var atom önskar fylla
-    samtliga tomma bindningar och atomerna klumpas därför samman, därav den
-    kristallina strukturen. För att solcellen ska fungera behövs tillgång till
-    både fria elektroner och fria bildningsmöjligheter, så kallade elektronhål.
-    N-skiktet tillförs därför ett ämne med fem valenselektroner, exempelvis
-    fosfor. Processen att tillföra fosfor kallas dopning.</p>
+            <p>En solcell är en typ av fotodiod. Solcellen består av två skikt, vars kemiska bindningar är vitala för att det fotovoltaiska fenomenet ska ske: P-skiktet och N-skiktet. Det vanligaste ämnet i solceller är kristallint kisel. Kisel har fyra
+                valenselektroner. Kisel förmår dock binda upp till åtta elektroner i det yttersta elektronskiktet. Var atom önskar fylla samtliga tomma bindningar och atomerna klumpas därför samman, därav den kristallina strukturen. För att solcellen
+                ska fungera behövs tillgång till både fria elektroner och fria bildningsmöjligheter, så kallade elektronhål. N-skiktet tillförs därför ett ämne med fem valenselektroner, exempelvis fosfor. Processen att tillföra fosfor kallas dopning.</p>
 
-    <p class="inset">På motsvarande vis tillförs P-skiktet ett ämne med tre valenselektroner,
-    exempelvis bor.</p>
+            <p class="inset">På motsvarande vis tillförs P-skiktet ett ämne med tre valenselektroner, exempelvis bor.</p>
 
-    <p class="inset">Processen att dopa N- respektive P-skiktet leder till överskott av
-    elektronhål i P-skiktet, samtidigt som det blir ett överskott på elektroner
-    i N-skiktet.</p>
+            <p class="inset">Processen att dopa N- respektive P-skiktet leder till överskott av elektronhål i P-skiktet, samtidigt som det blir ett överskott på elektroner i N-skiktet.</p>
 
-    <p class="inset">När N-skiktet och P-skiktet förs samman fås en så kallad PN-övergång. I
-    PN-övergången kommer det ske en reaktion mellan P-skiktet och N-skiktet där
-    fria elektroner och fria elektronhål kommer att reagera med varandra. Härmed
-    uppstår ett spärrskikt i form av ett elektriskt fält. Det elektriska fältet
-    i PN-övergången fungerar som en så kallad diod. Detta fält kommer sedan att
-    flytta elektroner från P-sidan till N-sidan, det vill säga motsatt det som
-    tidigare skedde innan spärrskiktet uppstått.</p>
+            <p class="inset">När N-skiktet och P-skiktet förs samman fås en så kallad PN-övergång. I PN-övergången kommer det ske en reaktion mellan P-skiktet och N-skiktet där fria elektroner och fria elektronhål kommer att reagera med varandra. Härmed uppstår ett spärrskikt
+                i form av ett elektriskt fält. Det elektriska fältet i PN-övergången fungerar som en så kallad diod. Detta fält kommer sedan att flytta elektroner från P-sidan till N-sidan, det vill säga motsatt det som tidigare skedde innan spärrskiktet
+                uppstått.
+            </p>
 
-    <p class="inset">När solljus träffar P-sidan slår dess fotoner loss elektroner från sina
-    bindningar. Det ger både en fri elektron och ett fritt elektronhål på
-    P-sidan.</p>
+            <p class="inset">När solljus träffar P-sidan slår dess fotoner loss elektroner från sina bindningar. Det ger både en fri elektron och ett fritt elektronhål på P-sidan.
+            </p>
 
-    <p>Om en fri elektron på P-sidan kommer tillräckligt nära PN-skiktet så
-    kommer det elektriska fältet där att skicka över den till N-sidan, det vill
-    säga den sida som från början redan hade ett överskott på elektroner. På
-    motsatt vis kommer fotoner som träffar och lösgör elektroner på N-sidan leda
-    till att det elektronhål som uppstår då kommer att flyttas från N-sidan till
-    P-sidan. Detta kan betraktas som en process som leder till att N-sidan
-    successivt blir mer och mer negativ samtidigt som P-sidan successivt blir
-    allt mer positiv. Processen där fotonen slår loss en elektron kallas
-    excitation. I och med detta har vi möjlighet att få solcellen att utföra
-    arbete åt oss. Det sker genom att vi kopplar en extern förbindelse mellan
-    N-sidan och P-sidan. På så vis får vi en ström av elektroner genom den
-    externa förbindelsen från N-sidan till P-sidan. På vägen kan vi ansluta
-    exempelvis en glödlampa.</p>
+            <p>Om en fri elektron på P-sidan kommer tillräckligt nära PN-skiktet så kommer det elektriska fältet där att skicka över den till N-sidan, det vill säga den sida som från början redan hade ett överskott på elektroner. På motsatt vis kommer fotoner
+                som träffar och lösgör elektroner på N-sidan leda till att det elektronhål som uppstår då kommer att flyttas från N-sidan till P-sidan. Detta kan betraktas som en process som leder till att N-sidan successivt blir mer och mer negativ samtidigt
+                som P-sidan successivt blir allt mer positiv. Processen där fotonen slår loss en elektron kallas excitation. I och med detta har vi möjlighet att få solcellen att utföra arbete åt oss. Det sker genom att vi kopplar en extern förbindelse
+                mellan N-sidan och P-sidan. På så vis får vi en ström av elektroner genom den externa förbindelsen från N-sidan till P-sidan. På vägen kan vi ansluta exempelvis en glödlampa.</p>
 
-    <p>Solceller tappar i verkningsgrad när temperaturen stiger. Det har visat
-    sig att det är förhållandevis enkelt att använda passiv kylning och därmed
-    minska förlusterna när temperaturen stiger.</p>
+            <p>Solceller tappar i verkningsgrad när temperaturen stiger. Det har visat sig att det är förhållandevis enkelt att använda passiv kylning och därmed minska förlusterna när temperaturen stiger.</p>
 
-    </main>
+            </main>
     </article>
+    <script src="script/script.js"></script>
+</body>
 
-  </body>
 </html>

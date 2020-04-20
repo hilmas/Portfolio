@@ -1,0 +1,4 @@
+Dessa filer är skapade som inspiration för Prep LAB7 i TNGD46 vt 2020.
+De delar som är tillagda är länkar till jQuery i head-tagen i bägge html-filerna (index / solceller). Längst ner i <body> på dessa sidor finns också länk till den egna skrivna script-filen script.js. Denna fil innehåller både Javascript och jQuery-kommandon. 
+Både script.js och det nedladdade jQuery-bibilioteket ligger i nyskapade mappen "script".
+För att skripten skall fungera enkelt har länkarna i <nav> fått unika id:n.
