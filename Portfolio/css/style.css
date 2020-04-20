@@ -54,6 +54,10 @@ nav a:focus {
     grid-column: 1/-1;
 }
 
+.gi1-2 {
+    grid-column: 1/2;
+}
+
 .gi2-1 {
     grid-column: 2/-1;
 }
@@ -75,6 +79,19 @@ article main {
 }
 
 
+/* Buttons */
+
+.buttonArea button {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nightModeBodyClass {
+    background-color: #444;
+    color: #ccc;
+}
+
+
 /* Figure */
 
 figure {
@@ -89,6 +106,34 @@ figcaption {
 
 figure img {
     width: 100%;
+}
+
+
+/* Figure Shading */
+
+
+/* Sätter bilderna till gråskala*/
+
+figure img {
+    filter: grayscale();
+    transition-property: ;
+    transition-duration: ;
+}
+
+
+/* Tar fram färg vid hover */
+
+figure img:hover {
+    filter: unset;
+}
+
+
+/* Figure Translations */
+
+figure:hover {
+    transform: scale(1.15);
+    transform-origin: center;
+    transition: transform 200ms;
 }
 
 

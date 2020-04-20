@@ -29,3 +29,18 @@ $(document).ready(function() {
         }
     );
 });
+
+
+// jQuery för knapparna i buttonArea
+$(document).ready(function() {
+    $("#hideImg").click(function() {
+        $("figure").toggle();
+    });
+    $("#largeText").click(function() {
+        $("article p").css("font-size", "1.4em");
+    });
+    $("#nightMode").click(function() {
+        $("body").toggleClass("nightModeBodyClass");
+        $("h1, h2, p").toggleClass("nightModeBodyClass");
+    });
+});
